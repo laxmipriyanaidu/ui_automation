@@ -1,0 +1,47 @@
+l=[10,20,30,40,50]
+print(type[l])
+print(l[0])
+l.append(20)  #it will add element in the last position
+print(l)
+l.append(5)
+print(l)
+l.append(34)
+print(l)
+print(l)
+l.extend([20])
+print(l)
+l.insert(3,8)
+print([l])
+l.insert(2,18)
+print(l)
+l.remove(40)
+print(l)
+l.pop( )
+print(l)
+l.index(30,1)
+print(l)
+l.copy()
+print(l)
+l.reverse()
+print(l)
+l.sort()
+print(l)
+l.clear( )
+print(l)
+l1=[1,2]
+l2=[3,4]
+print(l1+l2)
+l=10,20,30
+l1=l*3
+print(l)
+n=[1,2,3,4,0]
+print(max(n))
+print(min(n))
+n=[1,2,3,4,[5,6,7]]
+print(n)
+print(n[0])
+print(n[1])
+print(n[2])
+print(n[3])
+print(n[4])
+print(n[4][0])
