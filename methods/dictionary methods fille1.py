@@ -1,0 +1,23 @@
+d=dict()
+d[100]='priya'
+d[200]='laxmi'
+d[300]='laxmi priya'
+print(d)
+d={100:'python',200:'selenium',300:'automation'}
+print(d[100])
+print(d[200])
+print(d[300])
+d={100:'ram',200:'radha',300:'krishna'}
+print(d)
+d[400]='pavan'
+print(d)
+d[100]='rk'
+print(d)
+print(d.pop(100))
+print(d.popitem())
+print(d)
+d.clear()
+print(d)
+d={100:'python',200:'automation',300:'selenium'}
+print(d.get(100))
+print(d.get(300))
